@@ -1,5 +1,7 @@
+// ./src/App.js
+import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Movies from "./routes/Movies.js";
+import Movies from "./routes/Movies";
 import Movie from "./routes/Movie";
 
 export default function App() {

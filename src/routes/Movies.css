@@ -1,0 +1,59 @@
+.loading {
+    /* 로딩 메시지 스타일 */
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .error {
+    /* 에러 메시지 스타일 */
+    font-size: 24px;
+    font-weight: bold;
+    color: red;
+  }
+  
+  .title {
+    /* 제목 스타일 */
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .movie-list {
+    /* 영화 목록 스타일 */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .movie-item {
+    /* 영화 항목 스타일 */
+    margin-bottom: 20px;
+  }
+  
+  .movie-link {
+    /* 영화 링크 스타일 */
+    display: block;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .movie-image {
+    /* 영화 이미지 스타일 */
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .movie-title {
+    /* 영화 제목 스타일 */
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .movie-description {
+    /* 영화 설명 스타일 */
+    font-size: 16px;
+  }
+  

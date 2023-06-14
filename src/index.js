@@ -1,18 +1,15 @@
-// index.js (소문자로 변경)
-
+// ./src/index.js
 import React from "react";
-import { createRoot } from "react-dom/client"; // createRoot를 react-dom/client에서 가져옴
-import { ApolloProvider } from "@apollo/client";
-
+import ReactDOM from "react-dom";
 import App from "./App";
 import client from "./Client";
+import { ApolloProvider } from "@apollo/client";
 
-const root = document.getElementById("root");
-createRoot(root).render(
+ReactDOM.render(
   <ApolloProvider client={client}>
     <React.StrictMode>
       <App />
     </React.StrictMode>
-  </ApolloProvider>
+  </ApolloProvider>,
+  document.getElementById("root")
 );
-

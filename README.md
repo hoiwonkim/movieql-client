@@ -84,3 +84,8 @@ https://www.apollographql.com/docs/react/get-started
 cd C:\Users\GGPC\Documents\movieql-client
 npm install
 npm run dev
+npm audit fix --force 명령을 실행하여 모든 문제를 해결합니다. 이 명령은 프로젝트의 종속성을 업데이트하고 보안 취약점을 수정합니다.
+
+npm install styled-components 명령을 실행하여 styled-components를 설치합니다.
+
+설치가 완료되면 프로젝트를 다시 빌드하고 실행해보세요. 터미널에서 npm start 명령을 사용하여 개발 서버를 시작하세요.
